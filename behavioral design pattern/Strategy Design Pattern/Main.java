@@ -24,3 +24,9 @@ public class Main {
 // PayPal
 
 // Each payment method is a strategy.
+
+// Component	Purpose
+// PaymentStrategy	Strategy interface
+// CreditCardPayment, UPIPayment, etc.	Concrete strategies
+// PaymentService	Context that uses the strategy
+// Main	Client sets strategy at runtime
