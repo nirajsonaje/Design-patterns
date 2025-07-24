@@ -15,3 +15,12 @@ public class Main {
         paymentService.checkout(2499.00);
     }
 }
+// You want to support multiple payment methods like:
+
+// Credit Card
+
+// UPI
+
+// PayPal
+
+// Each payment method is a strategy.
